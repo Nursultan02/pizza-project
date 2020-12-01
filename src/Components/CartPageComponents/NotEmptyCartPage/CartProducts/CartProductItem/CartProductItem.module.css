@@ -1,0 +1,71 @@
+.CartProductItem {
+    height: 100px;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.cartImage img{
+    width: 100px;
+}
+
+.cartItemTitle {
+    width: 120px;
+    line-height: 1em;
+    margin-left: 20px;
+}
+
+.cartItemTitle small {
+    color: rgba(0, 0, 0, .5);
+    font-size: 12px;
+}
+
+.addAndMinus {
+    margin: 0 30px 0 55px;
+    display: flex;
+}
+
+.addAndMinus strong {
+    margin: 0 5px;
+}
+
+.addAndMinus >div {
+    color: #f85820;
+    border: 1px solid #f85820;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.addAndMinus >div:hover {
+    cursor: pointer;
+}
+
+.itemCost {
+    margin: 0 90px;
+}
+
+.deleteButton {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: all .25s ease-in-out;
+}
+
+.deleteButton i {
+    font-size: 10px;
+}
+
+.deleteButton:hover {
+    background-color: rgba(0, 0, 0, .85);
+    color: rgba(255, 255, 255, 0.95);
+}

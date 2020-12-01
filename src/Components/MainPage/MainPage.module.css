@@ -1,0 +1,14 @@
+.MainPage {
+    padding: 35px 45px;
+}
+
+.MainPage header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.MainPage hr {
+    opacity: .2;
+    margin-top: 25px;
+}

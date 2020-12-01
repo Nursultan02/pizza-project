@@ -1,0 +1,14 @@
+.HeaderLogo {
+    display: flex;
+    line-height: 1em;
+}
+
+.HeaderLogo img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.HeaderLogo span {
+    font-size: 12px;
+    opacity: .9;
+}

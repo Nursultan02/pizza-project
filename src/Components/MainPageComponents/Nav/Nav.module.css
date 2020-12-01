@@ -1,0 +1,38 @@
+.Nav {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.Nav ul li{
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 5px 10px;
+    border-radius: 15px;
+
+    transition: all .75s ease-in-out ;
+}
+
+.Nav ul li:hover{
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.Nav ul li:hover a{
+    color: #e4ff4c;
+}
+
+.Nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Sort {
+    padding: 5px 10px;
+    margin-left: 240px;
+}

@@ -1,0 +1,15 @@
+.VegetarianPizza {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.pizzaWrapper {
+    padding: 35px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pizzaWrapper >div {
+    margin-right: 30px;
+}

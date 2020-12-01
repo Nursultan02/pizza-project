@@ -1,0 +1,10 @@
+.CartPage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.CartPage header {
+    padding: 35px 0 0 45px;
+}
+

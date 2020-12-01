@@ -1,0 +1,18 @@
+.CartHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.CartHeader small {
+    font-size: 11px;
+    color: rgba(0, 0, 0, .5);
+
+    transition: color .25s ease-in-out;
+}
+
+.CartHeader small:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, .75);
+}

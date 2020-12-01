@@ -1,0 +1,5 @@
+.CartProducts {
+    max-height: 270px;
+    padding-top: 10px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,13 @@
+.GrillPizza {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.pizzaWrapper {
+    padding: 35px 0;
+    display: flex;
+}
+
+.pizzaWrapper >div {
+    margin-right: 30px;
+}

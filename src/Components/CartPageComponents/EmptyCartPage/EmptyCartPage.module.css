@@ -1,0 +1,52 @@
+.EmptyCartPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 50px;
+}
+
+.CartContent {
+    text-align: center;
+}
+
+.CartContent h1 {
+    font-family: 'Architects Daughter', cursive;
+}
+
+.CartContent h1  i {
+    background-color: #f8c358;
+    border-radius: 60%;
+}
+
+.CartContent p {
+    margin: 15px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.CartContent img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+
+.CartContent button {
+    padding: 10px 25px;
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+    margin-top: 30px;
+    border: none;
+
+    transition: all .4s ease-in-out ;
+}
+
+.CartContent button:hover {
+    color: #000;
+    background-color: #f85820;
+}
+
+.CartContent button:focus {
+    outline: none;
+}

@@ -1,0 +1,81 @@
+.PizzaMainItem {
+    width: 23%;
+    padding: 5px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.PizzaMainItem img {
+    width: 95%;
+    margin-bottom: 5px;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0, .08);
+}
+
+.choose >div {
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color .1s ease-in-out;
+}
+
+.choose >div:hover {
+    background-color: rgba(255, 255, 255, .9);
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.itemFoot {
+    width: 90%;
+    padding: 5px;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.Button {
+    color: #f85820;
+    background-color: #fff;
+    border: 1px solid #f85820;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 700;
+
+    transition: all .3s ease-in-out;
+}
+
+.Button:hover {
+    background-color: rgba(0,0,0, .7);
+    color: #e4ff4c;;
+}
+
+.AddedButton {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+
+.itemFoot button:focus {
+    outline: none;
+}
+
+.activeClass {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.itemFoot i {
+    font-size: 13px;
+    margin-left: 2px;
+}
